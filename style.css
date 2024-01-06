@@ -16,7 +16,8 @@ body {
   width: 100%;
 }
 
-.header .more-inf {
+.header
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -53,11 +54,13 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
@@ -158,23 +161,25 @@ li {
 
 /* Completed */
 
-.completed-tasks,
-.task-label {
+#completed-tasks {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.task-item .task-input {
+.task-item
+.task-input {
   display: none;
 }
 
-.edit-Mode .task-input {
+.edit-Mode
+.task-input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-Mode .task-label {
+.edit-Mode
+.task-label {
   display: none;
 }
